@@ -41,7 +41,7 @@ export default function Question({ params }) {
       <Image src={"/bg.jpg"} fill={true} alt="Background" />
       <div className="w-3/4 h-3/4 absolute flex justify-center items-center flex-col gap-10 rounded-2xl border drop-shadow-2xl backdrop-blur-2xl shadow-2xl shadow-black ">
         <div className="flex flex-col gap-8 px-10">
-          <h2 className=" text-white text-3xl font-semibold font-mono">{question.text}</h2>
+          <h2 className=" text-white sm:text-3xl text-lg font-semibold font-mono">{question.text}</h2>
           <div className="flex flex-col gap-2">
             {question.options.map((option, i) => (
               <div key={i} className="text-white flex gap-4">
