@@ -17,7 +17,7 @@ export default function Home() {
         onLoadingComplete={() => setShow(true)}
       />
       <div className=" w-3/4 h-3/4 absolute flex justify-center items-center flex-col gap-10 rounded-2xl border drop-shadow-2xl backdrop-blur-2xl shadow-2xl shadow-black ">
-        <h1 className=" px-8 py-4 bg-gray-500 text-white font-mono rounded-xl">
+        <h1 className=" px-8 py-4 sm:text-3xl text-xl text-white font-mono rounded-xl">
           MCQ Game
         </h1>
         <Link
