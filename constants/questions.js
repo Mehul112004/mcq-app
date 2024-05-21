@@ -1,18 +1,28 @@
 const questions = [
     {
-      text: "What is the capital of France?",
-      options: ["Berlin", "Madrid", "Paris", "Lisbon"],
-      correct: "Paris"
+      text: "Which Bollywood movie featured the song 'Tujhe Dekha To Ye Jaana Sanam'?",
+      options: ["Dilwale Dulhania Le Jayenge", "Kabhi Khushi Kabhie Gham", "Kuch Kuch Hota Hai", "Mohabbatein"],
+      correct: "Dilwale Dulhania Le Jayenge"
     },
     {
-      text: "Which planet is known as the Red Planet?",
-      options: ["Earth", "Mars", "Jupiter", "Saturn"],
-      correct: "Mars"
+      text: "Who is known as the 'King of Bollywood'?",
+      options: ["Aamir Khan", "Salman Khan", "Shah Rukh Khan", "Akshay Kumar"],
+      correct: "Shah Rukh Khan"
     },
     {
-      text: "Who wrote 'To Kill a Mockingbird'?",
-      options: ["Harper Lee", "Jane Austen", "Mark Twain", "Charles Dickens"],
-      correct: "Harper Lee"
+      text: "Which Bollywood actress is also a former Miss World?",
+      options: ["Kareena Kapoor", "Priyanka Chopra", "Deepika Padukone", "Katrina Kaif"],
+      correct: "Priyanka Chopra"
+    },
+    {
+      text: "Which Bollywood film won the Filmfare Award for Best Movie in 2020?",
+      options: ["Gully Boy", "Uri: The Surgical Strike", "Kabir Singh", "Article 15"],
+      correct: "Gully Boy"
+    },
+    {
+      text: "Who directed the Bollywood movie '3 Idiots'?",
+      options: ["Rajkumar Hirani", "Karan Johar", "Rohit Shetty", "Sanjay Leela Bhansali"],
+      correct: "Rajkumar Hirani"
     },
   ];
   
